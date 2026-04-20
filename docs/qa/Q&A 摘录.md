@@ -44,7 +44,8 @@
 
 ## 相关页面
 
-- [[计算机网络基础]]
-- [[可观测宇宙的膨胀历史]]
-- [[哈勃常数与 Hubble Tension]]
-- [[FRW 度规与宇宙学方程]]
+- [计算机网络基础](../concepts/计算机网络基础.md)
+- [可观测宇宙的膨胀历史](../concepts/可观测宇宙的膨胀历史.md)
+- [哈勃常数与 Hubble Tension](../concepts/哈勃常数与%20Hubble%20Tension.md)
+- [FRW 度规与宇宙学方程](../concepts/FRW%20度规与宇宙学方程.md)
+- [第七周讨论摘要](../summaries/第七周讨论.md)
