@@ -40,6 +40,8 @@ nav:
     - concepts/哈勃常数与 Hubble Tension.md
   - Q&A:
     - qa/Q&A 摘录.md
+  - 操作指南:
+    - UPDATE.md
 
 markdown_extensions:
   - pymdownx.highlight:

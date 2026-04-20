@@ -49,7 +49,7 @@ mkdocs build --strict
 3. 运行 `mkdocs build --strict`
 4. 发布到 GitHub Pages
 
-详情见 [UPDATE.md](docs/UPDATE.md)。
+详情见 [UPDATE.md](UPDATE.md)。
 
 ---
 
