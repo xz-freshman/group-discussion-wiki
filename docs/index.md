@@ -1,56 +1,85 @@
 # 小组讨论知识库
 
-> 小组讨论录音整理 — 计算机网络 + 宇宙学基础
-
-🖥 **在线访问**：https://xz-freshman.github.io/group-discussion-wiki/
+> 小组讨论录音整理知识库，涵盖计算机网络与宇宙学两大主题
 
 ---
 
-## 内容导航
+## 🎯 这个网站是什么
+
+这里收录了小组讨论的完整录音整理，经过结构化、知识补充和逻辑梳理，供系统学习和快速查阅。
+
+??? info "👋 新来的同学从这里开始"
+    **建议顺序：** 摘要 → 概念 → Q&A
+
+    想快速了解这次讨论讲了什么？先看**摘要**，再按兴趣点进对应的**概念页**，最后可以浏览**Q&A**检验理解。
+
+---
+
+## 📚 内容导览
 
 ### 📖 摘要
-- [第七周讨论完整摘要](summaries/第七周讨论.md)
+小组讨论的完整摘要，包含主题拆解和核心脉络。
 
-### 🧠 概念整理
-- [计算机网络基础](concepts/计算机网络基础.md) — MAC 地址、集线器、交换机、路由器、IP、DNS、HTTP/HTTPS、无线安全
-- [可观测宇宙的膨胀历史](concepts/可观测宇宙的膨胀历史.md) — Scale Factor、暗能量、红移、CMB、Hubble Tension
-- [FRW 度规与宇宙学方程](concepts/FRW%20度规与宇宙学方程.md) — 度规形式、弗里德曼方程、曲率参数
-- [哈勃常数与 Hubble Tension](concepts/哈勃常数与%20Hubble%20Tension.md) — H₀ 测量的两套方法及宇宙学最大难题
+- [第七周讨论完整摘要](summaries/第七周讨论.md){ .md-button .md-button--primary }
 
-### ❓ Q&A
-- [高价值提问与回答摘录](qa/Q&A%20摘录.md)
+### 🧠 概念整理（按主题）
 
----
+=== "💻 计算机网络"
+    **主题一：互联网是如何层层叠加的**
 
-## 技术栈
+    从 MAC 地址出发，经过集线器、交换机、路由器，到 IP、DNS、HTTP/HTTPS。每一层都是在前一层基础上"叠加"，而不是"替换"。
 
-- 框架：[MkDocs](https://www.mkdocs.org/) + [Material for MkDocs](https://squidfunk.github.io/mkdocs-material/)
-- 托管：[GitHub Pages](https://pages.github.com/)（自动构建发布）
-- 源码管理：[GitHub Actions](https://github.com/features/actions)
+    [计算机网络基础](concepts/计算机网络基础.md){ .md-button }
 
-## 本地开发
+=== "🌌 宇宙学"
+    **主题二：宇宙从哪来到哪去**
 
-```bash
-# 安装依赖
-pip install mkdocs-material
+    从可观测宇宙半径的常见误解出发，理解尺度因子、暗能量、FRW 度规，最后到达 Hubble Tension——当前宇宙学最大的未解难题。
 
-# 启动本地预览
-mkdocs serve
+    - [可观测宇宙的膨胀历史](concepts/可观测宇宙的膨胀历史.md)
+    - [FRW 度规与宇宙学方程](concepts/FRW%20度规与宇宙学方程.md)
+    - [哈勃常数与 Hubble Tension](concepts/哈勃常数与%20Hubble%20Tension.md)
 
-# 构建静态网站
-mkdocs build --strict
-```
+=== "❓ Q&A"
+    从讨论中提炼的高价值提问与回答，适合快速查阅和自测。
 
-## 部署流程
-
-每次 `git push` 到 `main` 分支后，GitHub Actions 会自动：
-1. 检出代码
-2. 安装 mkdocs-material
-3. 运行 `mkdocs build --strict`
-4. 发布到 GitHub Pages
-
-详情见 [UPDATE.md](UPDATE.md)。
+    [Q&A 摘录](qa/Q&A%20摘录.md){ .md-button }
 
 ---
 
-*由余川整理维护，基于小组讨论录音转文字生成*
+## 📌 导航地图
+
+| 分类 | 内容 | 适合人群 |
+|------|------|---------|
+| 📖 摘要 | 第七周讨论完整摘要 | 想要快速了解讨论内容 |
+| 🧠 概念 | 计算机网络基础 | 想系统学习网络知识 |
+| 🧠 概念 | 可观测宇宙的膨胀历史 | 想理解宇宙学基础 |
+| 🧠 概念 | FRW 度规与宇宙学方程 | 想深入宇宙学公式 |
+| 🧠 概念 | 哈勃常数与 Hubble Tension | 想了解当前宇宙学前沿 |
+| ❓ Q&A | 高价值问答摘录 | 想快速查阅关键问题 |
+
+---
+
+## 🔧 部署信息（供维护者）
+
+> 以下内容面向内容维护者，访客无需关注。
+
+!!! warning "部署与更新"
+    本网站基于 **MkDocs + Material for MkDocs** 构建，托管于 **GitHub Pages**，每次 push 到 main 分支后由 GitHub Actions 自动构建发布。
+
+    **网站地址：** https://xz-freshman.github.io/group-discussion-wiki/
+
+    **更新内容：** 找到对应的 `.md` 文件编辑后，执行 `git add . && git commit -m "描述" && git push` 即可自动更新。
+
+    详细步骤见 [UPDATE.md](UPDATE.md)。
+
+!!! info "本地预览"
+    ```bash
+    pip install mkdocs-material
+    mkdocs serve       # 启动本地预览
+    mkdocs build       # 构建静态网站
+    ```
+
+---
+
+*由余川整理维护 · 基于小组讨论录音转文字生成 · 2026 春季学期*

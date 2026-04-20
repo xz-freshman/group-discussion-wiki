@@ -1,5 +1,5 @@
 site_name: 小组讨论知识库
-site_description: 小组讨论录音整理 — 计算机网络 + 宇宙学
+site_description: 小组讨论录音整理 — 计算机网络 + 宇宙学基础
 site_author: 余川
 site_url: https://xz-freshman.github.io/group-discussion-wiki/
 
@@ -26,10 +26,29 @@ theme:
     - navigation.expand
     - navigation.indexes
     - toc.follow
+    - toc.permalink
     - search.suggest
     - search.highlight
     - content.code.copy
     - content.tabs.link
+    - navigation.top
+    - navigation.bottom
+    - breadcrumbs
+    - feedback.visible
+    - footer.waves
+    - announce.dismiss
+
+extra:
+  generator: false
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/xz-freshman/group-discussion-wiki
+
+plugins:
+  - search:
+      lang:
+        - ja
+        - zh
 
 nav:
   - 首页: index.md
@@ -45,8 +64,6 @@ nav:
   - Q&A:
     - qa/index.md
     - Q&A 摘录: qa/Q&A 摘录.md
-  - 操作指南:
-    - UPDATE.md
 
 markdown_extensions:
   - pymdownx.highlight:
@@ -54,7 +71,12 @@ markdown_extensions:
   - pymdownx.superfences
   - pymdownx.details
   - pymdownx.mark
+  - pymdownx.critic
   - tables
   - attr_list
   - admonition
   - abbr
+  - pymdownx.details
+  - pymdownx.mark
+  - toc:
+      permalink: true
