@@ -15,10 +15,10 @@
 mkdocs serve
 ```
 
-访问 `http://localhost:8000`
+访问 `http://localhost:8000`（或你本机当前启动服务时显示的端口）
 
 ## 发布
 
-推送到 GitHub 后，GitHub Actions 会自动构建并发布到 GitHub Pages。
+推送到 GitHub 仓库 `xz-freshman/group-discussion-wiki` 后，GitHub Actions 会自动构建并发布到 GitHub Pages。
 
 文件更新后重新 push 即可自动更新网站。

@@ -1,7 +1,7 @@
 site_name: 小组讨论知识库
 site_description: 小组讨论录音整理 — 计算机网络 + 宇宙学
 site_author: 余川
-site_url: https://yourusername.github.io/group-discussion-wiki/  # 部署后替换为你的实际地址
+site_url: https://xz-freshman.github.io/group-discussion-wiki/
 
 theme:
   name: material
