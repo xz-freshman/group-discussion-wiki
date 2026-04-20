@@ -1,0 +1,53 @@
+site_name: 小组讨论知识库
+site_description: 小组讨论录音整理 — 计算机网络 + 宇宙学
+site_author: 余川
+site_url: https://yourusername.github.io/group-discussion-wiki/  # 部署后替换为你的实际地址
+
+theme:
+  name: material
+  language: zh
+  palette:
+    - scheme: default
+      primary: indigo
+      accent: blue
+      toggle:
+        icon: material/brightness-7
+        name: 切换深色模式
+    - scheme: slate
+      primary: blue grey
+      accent: cyan
+      toggle:
+        icon: material/brightness-4
+        name: 切换浅色模式
+  features:
+    - navigation.instant
+    - navigation.tracking
+    - navigation.tabs
+    - navigation.sections
+    - toc.integrate
+    - search.suggest
+    - search.highlight
+    - content.code.copy
+
+nav:
+  - 首页: index.md
+  - 摘要:
+    - summaries/第七周讨论.md
+  - 概念:
+    - concepts/计算机网络基础.md
+    - concepts/可观测宇宙的膨胀历史.md
+    - concepts/FRW 度规与宇宙学方程.md
+    - concepts/哈勃常数与 Hubble Tension.md
+  - Q&A:
+    - qa/Q&A 摘录.md
+
+markdown_extensions:
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.superfences
+  - pymdownx.details
+  - pymdownx.mark
+  - tables
+  - attr_list
+  - admonition
+  - abbr

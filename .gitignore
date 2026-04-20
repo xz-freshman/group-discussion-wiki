@@ -1,0 +1,7 @@
+site/
+.site/
+.cache/
+.mkdocs-cache/
+__pycache__/
+*.pyc
+.DS_Store
