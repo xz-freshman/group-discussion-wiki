@@ -125,3 +125,9 @@ dρ/dt = -3(ρ + p/c²) · (ȧ/a)
 - [可观测宇宙的膨胀历史](可观测宇宙的膨胀历史.md)
 - [哈勃常数与 Hubble Tension](哈勃常数与%20Hubble%20Tension.md)
 - [第七周讨论摘要](../summaries/第七周讨论.md)
+
+---
+
+## 外部链接
+
+- **Wikipedia (EN)**：[Friedmann equations](https://en.wikipedia.org/wiki/Friedmann_equations)

@@ -3,9 +3,6 @@ site_description: 小组讨论录音整理 — 计算机网络 + 宇宙学基础
 site_author: 余川
 site_url: https://xz-freshman.github.io/group-discussion-wiki/
 
-extra_css:
-  - stylesheets/extra.css
-
 theme:
   name: material
   language: zh
@@ -28,13 +25,18 @@ theme:
     - navigation.sections
     - navigation.expand
     - navigation.indexes
-    - navigation.top
     - toc.follow
     - toc.permalink
     - search.suggest
     - search.highlight
     - content.code.copy
     - content.tabs.link
+    - navigation.top
+    - navigation.bottom
+    - breadcrumbs
+    - feedback.visible
+    - footer.waves
+    - announce.dismiss
 
 extra:
   generator: false
@@ -45,6 +47,7 @@ extra:
 plugins:
   - search:
       lang:
+        - ja
         - zh
 
 nav:
@@ -68,10 +71,12 @@ markdown_extensions:
   - pymdownx.superfences
   - pymdownx.details
   - pymdownx.mark
+  - pymdownx.critic
   - tables
   - attr_list
   - admonition
   - abbr
-  - md_in_html
+  - pymdownx.details
+  - pymdownx.mark
   - toc:
       permalink: true

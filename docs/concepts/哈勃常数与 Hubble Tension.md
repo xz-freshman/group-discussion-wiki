@@ -88,3 +88,9 @@
 - [可观测宇宙的膨胀历史](可观测宇宙的膨胀历史.md)
 - [FRW 度规与宇宙学方程](FRW%20度规与宇宙学方程.md)
 - [第七周讨论摘要](../summaries/第七周讨论.md)
+
+---
+
+## 外部链接
+
+- **Wikipedia (EN)**：[Hubble's law](https://en.wikipedia.org/wiki/Hubble%27s_law)
